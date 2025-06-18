@@ -33,9 +33,10 @@ const a = {
 ### 5 . Execute the function named myFunction.
 ##### Solution (js) :
 ```javascript
- ( function myFunction() {
+  function myFunction() {
     alert("Hello World!");
-  }) ();
+  };
+  myFunction();
 // Connect js to html to see the result.
 ```
 ### 6. 3. Create an object called person with name = John, age = 50, Then, access the object to alert("John is 50").
@@ -56,7 +57,7 @@ const a = {
 ### 7. The <button> element should do something when someone clicks on it. Try to fix it.
 ##### Solution (html) :
 ```html
-  <button onclick="alert('Thanks for clicking me')" > Click me </button>
+  <button onclick="alert('You have clicked me')" > Click me </button>
 
 ```
 ### 8. Array Related Question 
@@ -104,7 +105,7 @@ console.log(squareRoot) // 3
 ##### Solution(js) :
 ```javascript
 
-let  x = 10 , y =5;
+let  x = 10 , y = 5;
 if(x > y){
     alert("true")
 }else{
